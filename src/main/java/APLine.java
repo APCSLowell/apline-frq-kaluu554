@@ -13,7 +13,7 @@ public class APLine
   }
 
   public boolean isOnline(int x,int y){
-    if(a1*x + b2*y + c == 0){
+    if(a1*x + b1*y + c1 == 0){
       return true;
     }
     return false;
