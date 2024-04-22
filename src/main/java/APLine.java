@@ -8,7 +8,7 @@ public class APLine
   }
 
   public double getSlope(){
-    return (double)a1/b1;
+    return -(double)a1/b1;
     
   }
 
